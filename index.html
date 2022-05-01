@@ -7,7 +7,11 @@
   <title>AJAX with JavaScript</title>
   <script>
     var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {};
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        
+      }
+    };
   </script>
 </head>
 <body>
