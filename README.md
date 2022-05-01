@@ -5,3 +5,4 @@
 - GET. Used for most requests. Browser uses the GET method whenever it requests a new web page, CSS file, image, and so on. Use GET when you want to "get" something from the server.
 - POST. Used frequently with web forms to send data to store in a database. Use POST when sending data that will store, delete or update information from a database.
 3. AJAX Response Formats - learn which formats web servers commonly send as a response to an AJAX request: as plain text, HTML and XML. Learn the basics of XML.
+4. AJAX Security Limitations - Web browsers prevent certain types of AJAX requests, such as requests to other web sites. Learn the rules of a web browser's "same-origin" policy and ways to work around these limitations.
